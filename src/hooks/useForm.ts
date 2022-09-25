@@ -18,9 +18,15 @@ export const useForm = (initialForm: Props) => {
     });
   };
 
+  const handleResetForm = () => {
+    setFormState(initialForm);
+  };
+
+
   return {
     ...formState,
     formState,
     handleInputChange,
+    handleResetForm,
   };
 };
