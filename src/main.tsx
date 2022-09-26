@@ -7,7 +7,7 @@ import './index.css';
 // import { SimpleForm } from './02-useEffect/SimpleForm';
 // import { FormWithCustomHook } from './02-useEffect/FormWithCustomHook';
 // import { MultipleCustomHoks } from './03-examples/MultipleCustomHoks';
-import { FocusScreen } from './05-useRef/FocusScreen';
+import { FocusScreen } from './04-useRef/FocusScreen';
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <>
